@@ -1,0 +1,24 @@
+<div>
+                 <h2>Reg-Form Here</h2>        
+
+Username : <input type="text"  [(ngModel)]="username"  name="Username" /> <br/>
+Password : <input type="password" [(ngModel)]="password" name="username"/> <br/>
+ConformPassword : <input type="password" [(ngModel)]="conformPassword" name="conformPassword"/> <br/>
+Gender  : <input type="radio" [(ngModel)]="gender" name="gender" value="M"/>Male
+          <input type="radio" [(ngModel)]="gender" name= "gender" value="F">Female
+   <br/>
+Country : <select [(ngModel)]="country">
+
+     <option>-Select-</option>
+     <option>India</option>
+     <option>Japan</option>
+     <option>Nepal</option>
+     <option>USA</option>
+     <option>londan</option>
+</select> <br/> 
+
+    <input type="button" value="resistry" (click)="handleSubmitBtns()"/> <br/>
+
+       {{msg}}
+
+</div>

@@ -1,0 +1,13 @@
+var fruits;
+fruits = ['mango', 'apple', 'orang', 'carot'];
+console.log(fruits);
+var animals;
+animals = ['dog', 'rat', 'rabit'];
+console.log(animals);
+var person;
+person = ['sandeep', 26, 'male', 1259];
+console.log(person);
+var product;
+product = ['sandeep', 26, 'kumar', true, 'male', 'person'];
+console.log(product);
+console.log("First Index of value:" + product[0]);

@@ -1,0 +1,16 @@
+<div>
+     <h4>Two-Way Data Binding To Display</h4>
+     
+    Nmae:: {{name}} <br/>
+    age :: {{age}}
+
+    <hr/>
+
+    Name :<input type="text" [(ngModel)]="name"/> <br/>
+    Age : <input type="text" [(ngModel)]="age"/> 
+    
+    <br/>
+
+    <input type="button" value="Submit" (click)="handleSubmitBtn()"/> 
+
+</div>
